@@ -40,6 +40,8 @@ public class MainActivity extends AppCompatActivity {
         date.setText(sunami.time);
         TextView alert = (TextView) findViewById(R.id.alert);
         alert.setText(sunami.alert);
+        TextView alert1 = (TextView) findViewById(R.id.alert);
+        alert.setText(sunami.alert);
     }
 
 
